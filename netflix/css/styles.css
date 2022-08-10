@@ -1,0 +1,291 @@
+/* ===== Common Code ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex-btw {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flex-cnt {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.flex-ard {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+* a {
+  text-decoration: none;
+}
+body {
+  color: #fff;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+section {
+  border-top: 7px solid #64646477;
+  background-color: #000;
+}
+
+/* ===== Navigation Menu ===== */
+.width-100 {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  margin-top: 7rem;
+}
+.flex-btwb {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.showcase {
+  height: 110vh;
+  position: relative;
+  background-image: url("../img/NG-en-20220801-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(1, 1, 1, 0.527);
+  z-index: 1;
+}
+.nav-img {
+  width: 200px;
+}
+.sign {
+  background-color: red;
+  color: white;
+  padding: 6px 15px;
+  margin: 20px 10px 10px 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  border: none;
+}
+.navMenu{
+  padding: 0px 40px;
+}
+.navMenu,
+.cnt-texts {
+  position: relative;
+  z-index: 2;
+}
+.cnt-texts {
+  line-height: 40px;
+  margin-top: 8rem;
+}
+.cnt-texts h1 {
+  font-size: 3.125rem;
+}
+.cnt-texts h2 {
+  font-size: 1.625rem;
+}
+.nav-img img {
+  width: 100%;
+  height: 100%;
+}
+.form-control, .form-control-login {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.form-control-login {
+  margin: 30px 0px;
+}
+.format {
+  padding: 3rem 3rem;
+  border-radius: 6px;
+}
+.form-control-login input{
+width: 100%;
+background: #333;
+border: none;
+color: #fff;
+padding: 16px 20px;
+border-radius: 3px;
+font-size: 16px;
+}
+.sign--0{
+  color: #fff;
+}
+.learn{
+  color: #0071eb;
+}
+.learn:hover{
+  text-decoration: underline;
+}
+.form-control-login input[type="submit"]{
+  color: white;
+  font-size: 16px;
+  background-color: #e50914;
+  font-weight: 700;
+}
+.form-control input[type="email"] {
+  width: 500px;
+  padding: 10px 10px;
+  font-size: 16px;
+}
+.form-control input[type="submit"] {
+  width: 250px;
+  background-color: red;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 1.1rem;
+}
+
+.tv h1,
+.tv h2 {
+  color: #fff;
+}
+
+/* ===== Enjoy-on-Your-TV Section ===== */
+.section-tv {
+  padding: 1rem 2rem 1rem 8rem;
+}
+.text-tv {
+  margin-top: 6rem;
+  width: 550px;
+}
+.text-tv h1,
+.text-dwn h1 {
+  font-size: 3.125rem;
+}
+.text-tv h2,
+.text-dwn h2 {
+  font-size: 1.625rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+.d-img img {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+#myvid {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 48%;
+  left: 49.6%;
+  width: 455px;
+  z-index: 0;
+}
+video {
+  object-fit: contain;
+}
+/* ===== Download Your shows Section ===== */
+.section-dwn {
+  padding: 2rem 2rem 2rem 0rem;
+}
+.text-dwn {
+  width: 550px;
+  margin-top: 6rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+.img-100 {
+  width: 100%;
+}
+.str-img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 69%;
+  left: 50%;
+  width: 360px;
+  border: 3px solid #737373;
+  border-radius: 13px;
+  background-color: #000;
+  padding: 10px;
+}
+.txt--1 {
+  margin-right: 9rem;
+  padding-top: 1rem;
+}
+.text0 {
+  font-size: 1em;
+  font-weight: 600;
+}
+.text1 {
+  font-size: 0.9em;
+  color: #0071eb;
+  font-weight: 400;
+}
+
+/* FAQ */
+
+.faq {
+  padding: 0.8em 9.2em 0.8em 9.2em;
+}
+.faq h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 3rem 0;
+}
+details {
+  background-color: #303030;
+  margin: 10px 0px;
+  padding: 10px;
+}
+summary {
+  background-color: #303030;
+  padding: 1.2em;
+}
+.sum-text {
+  border-top: 1px solid #000;
+  padding: 10px 15px;
+}
+.form-1 {
+  width: 100%;
+
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+.form input[type="email"]{
+  width: 500px;
+  padding: 15px;
+  font-size: 20px;
+}
+.form input[type="submit"]{
+  width: 300px;
+  padding: 15px;
+  font-size: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+/* ===== Footer ===== */
+footer {
+  padding: 2rem 22rem 1rem 13rem;
+  border-top: 7px solid #64646477;
+  background-color: #000;
+}
+.qtn {
+  font-size: 17px;
+  margin: 14px 14px 25px 14px;
+  display: block;
+  color: #737373;
+}
+.block-a {
+  margin: 14px;
+  display: block;
+  font-size: 13px;
+  color: #737373;
+}
+.qtn:hover,
+.block-a:hover {
+  text-decoration: underline;
+}

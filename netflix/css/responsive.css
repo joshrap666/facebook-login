@@ -1,0 +1,91 @@
+@media screen and (max-width: 700px) {
+  .cnt-texts h1 {
+    font-size: 0.5rem;
+  }
+  .form-control input[type="email"] {
+    /* width: 100px; */
+    /* padding: 5px 10px; */
+    font-size: 10px;
+  }
+  .form-control input[type="submit"] {
+    width: 150px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 1.1rem;
+  }
+  #myvid {
+    width: 200px;
+  }
+  .str-img {
+    width: 200px;
+  }
+  footer {
+    padding: 10px;
+  }
+  .section-dwn,
+  .section-tv {
+    padding: 2rem 0rem 2rem 0rem;
+  }
+  .block-a,
+  .qtn {
+    margin: 5px;
+    font-size: 10px;
+  }
+  .qtn {
+    font-size: 14px;
+  }
+  .img-dwn {
+    width: 100%;
+  }
+  .text-dwn,
+  .text-tv {
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .text-dwn h1 {
+    font-size: 1.625rem;
+  }
+  .text-dwn h2 {
+    font-size: 1.125rem;
+  }
+  .txt h1 {
+    font-size: 15px;
+    width: 600px;
+  }
+  .text-tv h1 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  .img-tv {
+    width: 100%;
+  }
+  .faq h1 {
+    font-size: 2rem;
+  }
+  .faq {
+    padding: 0;
+  }
+  .form{
+    justify-content: center;
+  }
+  .form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .form input[type="submit"] {
+    width: 200px;
+    padding: 8px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    margin-top: 15px;
+  }
+  .format {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+  }
+}
